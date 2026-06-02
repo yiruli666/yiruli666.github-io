@@ -1,0 +1,53 @@
+body {
+    background-color: #fff9e6; /* 暖黄色背景 */
+    color: #5d4037; /* 深棕色字体，比纯黑更柔和 */
+    font-family: "Microsoft YaHei", sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(255, 193, 7, 0.3); /* 黄色阴影 */
+    border: 2px solid #ffecb3;
+}
+
+h1 {
+    color: #fbc02d; /* 亮黄色标题 */
+    border-bottom: 2px dashed #fbc02d;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: left;
+    text-indent: 2em;
+}
+
+.nav {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ffecb3;
+}
+
+a {
+    text-decoration: none;
+    color: #f57f17;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border: 1px solid #fbc02d;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+
+a:hover {
+    background-color: #fbc02d;
+    color: white;
+}
