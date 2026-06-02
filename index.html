@@ -1,62 +1,21 @@
-body {
-    background-color: #fff9e6; /* 暖黄色背景 */
-    /* 加入花朵背景图，使用在线的透明花朵素材 */
-    background-image: url('https://img.icons8.com/color/96/cherry-blossom.png'), url('https://img.icons8.com/color/96/cherry-blossom.png');
-    background-position: 10% 20%, 90% 80%; /* 两朵花分别放在左上和右下 */
-    background-repeat: no-repeat;
-    background-size: 100px, 100px; /* 花朵大小 */
-    color: #5d4037; /* 深棕色字体 */
-    font-family: "Microsoft YaHei", sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    height: 100vh; /* 让页面占满整个屏幕高度 */
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-}
-
-.container {
-    max-width: 800px; /* 放宽内容宽度 */
-    padding: 40px;
-    /* 去掉了背景色、边框和阴影，让内容直接展示在暖黄底色上 */
-}
-
-h1 {
-    color: #fbc02d; /* 亮黄色标题 */
-    font-size: 48px; /* 加大标题字号 */
-    margin-bottom: 30px;
-    text-shadow: 2px 2px 4px rgba(251, 192, 45, 0.3); /* 加点淡淡的文字阴影 */
-}
-
-p {
-    font-size: 24px; /* 加大正文字号 */
-    line-height: 2;
-    text-align: center; /* 文字居中 */
-    text-indent: 0; /* 去掉首行缩进，居中对齐时通常不需要缩进 */
-    font-weight: 500;
-}
-
-.nav {
-    margin-top: 50px;
-    padding-top: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: #f57f17;
-    font-size: 20px; /* 导航按钮字号加大 */
-    font-weight: bold;
-    margin: 0 15px;
-    padding: 10px 20px;
-    border: 2px solid #fbc02d;
-    border-radius: 25px;
-    transition: all 0.3s;
-    background-color: rgba(255, 255, 255, 0.6); /* 按钮带一点半透明白底，更清晰 */
-}
-
-a:hover {
-    background-color: #fbc02d;
-    color: white;
-    transform: scale(1.1); /* 鼠标悬停时按钮稍微放大 */
-}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>李艺如的主页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>你好，我是李艺如</h1>
+        <p>我是华中科技大学船海学院轮机工程2501班的学生。</p>
+        
+        <div class="nav">
+            <!-- 去掉了原本的“首页”按钮 -->
+            <a href="about.html">关于我</a>
+            <a href="hobby.html">爱好</a>
+            <a href="contact.html">联系方式</a>
+        </div>
+    </div>
+</body>
+</html>
